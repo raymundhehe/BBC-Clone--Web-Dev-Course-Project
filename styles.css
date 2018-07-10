@@ -1,0 +1,225 @@
+body{
+  margin: 0;
+  font-family: Arial,Helvetica,freesans,sans-serif;
+}
+
+/*centers in the middle */
+.fixed-width{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#bold{
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.top-bar{
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  color: black;
+}
+
+.top-bar ul{
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar ul li{
+  float: left;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-right: 1px solid grey;
+  padding: 9.3px 30px 10px 10px;
+}
+
+.top-bar ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.bbc{
+  width: 100px;
+  height: 30px;
+}
+
+.sign-in-logo{
+  width: 20px;
+  padding-right: 8px;
+  position: relative;
+  top: 3px;
+}
+
+.search-logo{
+  width: 15px;
+  padding: 2px;
+  position: relative;
+  top: 25px;
+  left: 172px;
+  border: 1px solid grey;
+
+}
+
+.news-bar{
+  background: #BB1919;
+  width: 100%;
+  height: 60px;
+  color: white;
+}
+
+.news-bar p{
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  font-family: arial;
+  position: relative;
+  bottom: 15px;
+  left: 3px;
+}
+
+.news-bar a{
+  text-decoration: none;
+  color: white;
+}
+
+.category-bar{
+  background-color: #A91717;
+  width: 100%;
+  height: 30px;
+  color: white;
+}
+
+.category-bar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.category-bar ul li{
+  float: left;
+  font-family: arial;
+  font-size: 0.9em;
+  border-right: 1px solid #BB4545;
+  padding: 5.2px;
+  position: relative;
+  top: 3px;
+}
+
+.location-bar{
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  color: black;
+}
+
+.location-bar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.location-bar ul li{
+  float: left;
+  font-family: arial;
+  padding: 0px 12px 0px; 12px;
+  border-right: 1px solid grey;
+  font-size: 0.75em;
+  position: relative;
+  right: 7px;
+  top: 12px;
+}
+
+.content{
+  background-color: white;
+  width: 100%;
+  color: black;
+}
+
+.content img{
+  float: right;
+  position: relative;
+  right: 200px;
+  width: 550px
+}
+
+.content p{
+  width: 215px;
+}
+
+.content a{
+  text-decoration: none;
+  display: block;
+}
+
+#content-links{
+  width: 250px;
+  margin-top: 50px;
+  line-height: 2em;
+}
+
+.content a{
+  text-decoration: none;
+  color: #1167A8;
+}
+
+.content p{
+  color: black;
+  text-align: justify;
+}
+
+.watch-listen{
+  float: right;
+  position: relative;
+  bottom: 490px;
+  right: 160px;
+  border-left: 1px solid gray;
+  padding: 0 0 0 40px;
+}
+
+.watch-listen h2{
+  font-family: arial;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+.play-button{
+  width: 100px;
+  height: 50px;
+  position: relative;
+  left: 19px;
+  top: 10px;
+  margin: 0px 0px 20px 0px;
+}
+
+#logo{
+  padding-top: 6px;
+  padding-right: 3px;
+  border-right: 1px solid grey;
+  float: left;
+}
+
+#sign-in{
+  float: left;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 10px;
+  border-right: 1px solid grey;
+  padding-top: 5px;
+  padding-right: 80px;
+}
+
+#search-box{
+  float: left;
+  width: 30px;
+  padding: 10px;
+  position: relative;
+  bottom: 25px;
+}
+
+#search-box input{
+  background-repeat: no-repeat;
+  background-position: right-center;
+}
